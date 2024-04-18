@@ -47,6 +47,14 @@ function App2() {
 					</p>
 				</div>
 			</div>
+			<footer
+				className={
+					search
+						? "text-grey-200 text-center mt-20"
+						: "text-grey-800 text-center mt-48"
+				}>
+				Powered by RKG
+			</footer>
 		</>
 	);
 }
