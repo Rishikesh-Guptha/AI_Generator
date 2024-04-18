@@ -5,6 +5,7 @@ import "./App.css";
 
 function App2() {
 	const [search, setSearch] = useState(false);
+	const [loading, setLoading] = useState(false);
 
 	return (
 		<>
@@ -41,7 +42,8 @@ function App2() {
 					<p
 						id="blog_ouput"
 						className={
-							search ? "text-black ml-4 mt-4" : "text-gray-500 ml-4 mt-4"
+							(search ? "text-black ml-4 mt-4" : "text-gray-500 ml-4 mt-4 ") +
+							"animate-spin-slow"
 						}>
 						The Generated Blog will appear here..
 					</p>
