@@ -9,7 +9,10 @@ function App() {
 	return (
 		<>
 			<div className="bg-blue-600 p-4 text-white flex justify-between">
-				hello
+				<div className="text-2xl">AI Generator</div>
+			</div>
+			<div className="bg-white m-20 border">
+				<p className="text-2xl"> Blog Generator</p>
 			</div>
 		</>
 	);
