@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function App2() {
 	const [search, setSearch] = useState(false);
@@ -11,7 +12,9 @@ function App2() {
 		<>
 			<div className="bg-blue-600 p-4 text-white flex justify-between">
 				<div className="text-2xl ml-4 ">Blog AI</div>
-				<button className="mr-4 ">Logout</button>
+				<Link to="/login">
+					<button className="mr-4 ">Logout</button>
+				</Link>
 			</div>
 			<div className="mx-auto mt-10 flex-grow container shadow-xl shadow-gray-400 rounded-xl p-10">
 				<p className="text-3xl font-semibold text-center">
