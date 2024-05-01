@@ -10,13 +10,13 @@ const Hero = () => {
 				<div className="text-2xl ml-4 ">Blog AI</div>
 				<div>
 					<Link to="/Login">
-						<button className="mr-4 ">Login</button>
+						<button className="mr-4 hover:opacity-75">Login</button>
 					</Link>
 					<Link to="/Signup">
-						<button className="mr-4">Signup</button>
+						<button className="mr-4 hover:opacity-75">Signup</button>
 					</Link>
 					<Link to="/App2">
-						<button className="mr-4">check btn</button>
+						<button className="mr-4 hover:opacity-75">check btn</button>
 					</Link>
 				</div>
 			</div>

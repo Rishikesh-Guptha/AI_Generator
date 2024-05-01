@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import Login from "./Login";
 import Signup from "./Signup";
 import App2 from "./App2";
+import All_blog from "./All_blog";
 
 const App = () => {
 	return (
@@ -32,6 +33,10 @@ const App = () => {
 					<Route
 						path="/App2"
 						element={<App2 />}
+					/>
+					<Route
+						path="/All_Blog"
+						element={<All_blog />}
 					/>
 				</Routes>
 			</Router>

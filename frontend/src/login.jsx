@@ -9,7 +9,7 @@ const login = () => {
 			<div className="bg-blue-600 p-4 text-white flex justify-between">
 				<div className="text-2xl ml-4 ">Blog AI</div>
 				<Link to="/Hero">
-					<button className="mr-4 ">Home</button>
+					<button className="mr-4 hover:opacity-75">Home</button>
 				</Link>
 			</div>
 			<div className="mx-auto mt-20 flex-grow container shadow-xl shadow-gray-400 rounded-xl p-10">

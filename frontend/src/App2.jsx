@@ -11,10 +11,15 @@ function App2() {
 	return (
 		<>
 			<div className="bg-blue-600 p-4 text-white flex justify-between">
-				<div className="text-2xl ml-4 ">Blog AI</div>
-				<Link to="/login">
-					<button className="mr-4 ">Logout</button>
-				</Link>
+				<div className="text-3xl ml-4 ">Blog AI</div>
+				<div className="flex items-center gap-x-4 ">
+					<Link to="/All_blog">
+						<div className="mr-4 hover:opacity-75">All Blogs</div>
+					</Link>
+					<Link to="/login">
+						<button className="mr-4 hover:opacity-75">Logout</button>
+					</Link>
+				</div>
 			</div>
 			<div className="mx-auto mt-10 flex-grow container shadow-xl shadow-gray-400 rounded-xl p-10">
 				<p className="text-3xl font-semibold text-center">
